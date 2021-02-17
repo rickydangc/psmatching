@@ -1,7 +1,7 @@
 import os
 
 
-descr = """Propensity score matching"""
+descr = """Propensity Score Matching"""
 
 
 DISTNAME = 'psmatching'

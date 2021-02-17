@@ -27,5 +27,4 @@ def test_match():
     global m
     m.match_by_neighbor(caliper = 0.005)
     assert not m.matched_controls.empty
-
-
+    
