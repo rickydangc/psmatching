@@ -5,7 +5,7 @@ descr = """Propensity Score Matching"""
 
 
 DISTNAME = 'psmatching'
-DESCRIPTION = 'Propensity score matching'
+DESCRIPTION = 'Propensity Score Matching'
 LONG_DESCRIPTION = descr
 AUTHOR = 'Chong Dang'
 AUTHOR_EMAIL = 'rickydangc@yahoo.com'
