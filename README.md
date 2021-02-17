@@ -1,18 +1,15 @@
 # psmatching
 Propensity Score Matching Python Package
 
-> psmatching is a package for implementing propensity score matching in Python 3.
-
 - Calculation of propensity scores based on a LR model
 - Matching of k controls to each case patient
 - Use of a caliper to control the maximum difference between propensity scores
-
-Install psmatching via pip
 
 ## Install psmatching
 
 ```
 python setup.py install
+
 pip install git+https://github.com/rickydangc/psmatching
 ```
 
@@ -32,7 +29,7 @@ caliper = ps.set_caliper('logit', 0.01)
 ps.match_by_neighbor(caliper)
 ```
 
-Simple Run
+## Simple Run
 ```
 ps.run()
 ```
