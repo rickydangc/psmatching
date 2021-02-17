@@ -1,7 +1,7 @@
 # psmatching
 Propensity Score Matching Python Package
 
-- Calculation of propensity scores based on a LR model
+- Calculation of propensity scores based on LR model
 - Matching of k controls to each case patient
 - Use of a caliper to control the maximum difference between propensity scores
 
